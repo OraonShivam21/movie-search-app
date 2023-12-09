@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+}
+
+nav {
+    background-color: rgb(20, 20, 20);
+    padding: 16px 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav a {
+    color: rgb(170, 170, 170);
+    font-family: 'Afacad', sans-serif;
+    font-size: 1.4rem;
+    margin-right: 3rem;
+    text-decoration: none;
+}
+
+header {
+    height: 30rem;
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    position: absolute;
+    margin: 0;
+    top: 1rem;
+    left: 20rem;
+}
+
+.heading {
+    color: rgb(130, 130, 130);
+    position: absolute;
+    top: 20rem;
+    left: 36rem;
+    font-size: 2.6rem;
+    font-family: 'Afacad', sans-serif;
+}
+
+.sub-heading {
+    color: rgb(120, 120, 120);
+    position: absolute;
+    top: 24rem;
+    left: 26rem;
+    font-size: 1.6rem;
+    font-family: 'Afacad', sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+#movie-search {
+    font-size: 1rem;
+    font-family: 'Afacad', sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    width: 30rem;
+}
+
+#display-movie-cards {
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+}
+
+.display-movie-cards {
+    background-color: rgb(61, 61, 61);
+    color: rgb(196, 196, 196);
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.movie-card {
+    background-color: rgb(61, 61, 61);
+    color: rgb(196, 196, 196);
+    font-family: 'Afacad', sans-serif;
+    padding: 12px 14px;
+}
+
+.movie-poster {
+    height: 20rem;
+    margin: 12px 0 0;
+}
+
+.movie-title {
+    margin: 12px 0;
+}
+
+.movie-id {
+    margin: 12px 0;
+}
